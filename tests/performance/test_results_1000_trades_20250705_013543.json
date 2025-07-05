@@ -1,0 +1,148 @@
+{
+  "timestamp": "20250705_013543",
+  "total_trades": 1000,
+  "total_scenarios": 7,
+  "success_rate": 0.14285714285714285,
+  "scenario_results": [
+    {
+      "scenario_name": "insider_dealing_high",
+      "scenario_type": "insider_dealing",
+      "expected_risk": "high",
+      "trade_count": 150,
+      "order_count": 0,
+      "material_events_count": 1,
+      "trader_info": {
+        "id": "trader_insider_001",
+        "name": "John Executive",
+        "role": "senior_trader",
+        "department": "energy_trading",
+        "access_level": "high",
+        "insider_access": true,
+        "compliance_violations": 2,
+        "disciplinary_actions": 1
+      },
+      "risk_result": "{'overall_score': 0.366046117692983, 'risk_level': 'MEDIUM'}",
+      "test_passed": false
+    },
+    {
+      "scenario_name": "insider_dealing_medium",
+      "scenario_type": "insider_dealing",
+      "expected_risk": "medium",
+      "trade_count": 100,
+      "order_count": 0,
+      "material_events_count": 1,
+      "trader_info": {
+        "id": "trader_insider_002",
+        "name": "Sarah Manager",
+        "role": "portfolio_manager",
+        "department": "investment",
+        "access_level": "medium",
+        "insider_access": true,
+        "compliance_violations": 1,
+        "disciplinary_actions": 0
+      },
+      "risk_result": "{'overall_score': 0.482146719192836, 'risk_level': 'MEDIUM'}",
+      "test_passed": true
+    },
+    {
+      "scenario_name": "spoofing_high",
+      "scenario_type": "spoofing",
+      "expected_risk": "high",
+      "trade_count": 120,
+      "order_count": 1071,
+      "material_events_count": 0,
+      "trader_info": {
+        "id": "trader_spoofer_001",
+        "name": "Mike Manipulator",
+        "role": "trader",
+        "department": "commodities",
+        "access_level": "standard",
+        "insider_access": false,
+        "compliance_violations": 3,
+        "disciplinary_actions": 2
+      },
+      "risk_result": "{'overall_score': 0.4696407717090576, 'risk_level': 'MEDIUM'}",
+      "test_passed": false
+    },
+    {
+      "scenario_name": "spoofing_medium",
+      "scenario_type": "spoofing",
+      "expected_risk": "medium",
+      "trade_count": 80,
+      "order_count": 257,
+      "material_events_count": 0,
+      "trader_info": {
+        "id": "trader_spoofer_001",
+        "name": "Mike Manipulator",
+        "role": "trader",
+        "department": "commodities",
+        "access_level": "standard",
+        "insider_access": false,
+        "compliance_violations": 3,
+        "disciplinary_actions": 2
+      },
+      "risk_result": "{'overall_score': 0.1608359724272769, 'risk_level': 'MEDIUM'}",
+      "test_passed": false
+    },
+    {
+      "scenario_name": "mixed_signals",
+      "scenario_type": "mixed_signals",
+      "expected_risk": "medium",
+      "trade_count": 150,
+      "order_count": 0,
+      "material_events_count": 1,
+      "trader_info": {
+        "id": "trader_normal_001",
+        "name": "Alice Regular",
+        "role": "trader",
+        "department": "trading",
+        "access_level": "standard",
+        "insider_access": false,
+        "compliance_violations": 0,
+        "disciplinary_actions": 0
+      },
+      "risk_result": "{'insider_dealing': {'overall_score': 0.4227137488313064, 'risk_level': 'MEDIUM'}, 'spoofing': {'overall_score': 0.7465327381949071, 'risk_level': 'MEDIUM'}, 'overall_score': 0.7465327381949071}",
+      "test_passed": false
+    },
+    {
+      "scenario_name": "normal_trading_1",
+      "scenario_type": "normal_trading",
+      "expected_risk": "low",
+      "trade_count": 200,
+      "order_count": 0,
+      "material_events_count": 0,
+      "trader_info": {
+        "id": "trader_normal_002",
+        "name": "Bob Standard",
+        "role": "analyst",
+        "department": "research",
+        "access_level": "low",
+        "insider_access": false,
+        "compliance_violations": 0,
+        "disciplinary_actions": 0
+      },
+      "risk_result": "{'insider_dealing': {'overall_score': 0.381049375144621, 'risk_level': 'MEDIUM'}, 'spoofing': {'overall_score': 0.5601526436939583, 'risk_level': 'MEDIUM'}, 'overall_score': 0.5601526436939583}",
+      "test_passed": false
+    },
+    {
+      "scenario_name": "normal_trading_2",
+      "scenario_type": "normal_trading",
+      "expected_risk": "low",
+      "trade_count": 200,
+      "order_count": 0,
+      "material_events_count": 0,
+      "trader_info": {
+        "id": "trader_normal_001",
+        "name": "Alice Regular",
+        "role": "trader",
+        "department": "trading",
+        "access_level": "standard",
+        "insider_access": false,
+        "compliance_violations": 0,
+        "disciplinary_actions": 0
+      },
+      "risk_result": "{'insider_dealing': {'overall_score': 0.4322728054957049, 'risk_level': 'MEDIUM'}, 'spoofing': {'overall_score': 0.8498731840836075, 'risk_level': 'MEDIUM'}, 'overall_score': 0.8498731840836075}",
+      "test_passed": false
+    }
+  ]
+}
