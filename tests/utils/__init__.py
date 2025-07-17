@@ -1,5 +1,5 @@
 """
-Test utilities and helpers for Kor.ai Surveillance Platform tests.
+Test utilities and helpers for Korinsic Surveillance Platform tests.
 """
 
 from .test_helpers import *

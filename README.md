@@ -1,6 +1,6 @@
-# Kor.ai – AI-Powered Surveillance Platform
+# Korinsic – AI-Powered Surveillance Platform
 
-Kor.ai is a professional-grade AI surveillance platform designed to detect market abuse risks including insider dealing and spoofing. This repository contains the core analytical engine, Bayesian inference system, and service orchestration components.
+Korinsic is a professional-grade AI surveillance platform designed to detect market abuse risks including insider dealing and spoofing. This repository contains the core analytical engine, Bayesian inference system, and service orchestration components.
 
 ---
 
@@ -673,4 +673,4 @@ For questions and support:
 
 ---
 
-*This README serves as your primary navigation guide for the Kor.ai surveillance platform. For detailed technical documentation, see the `docs/` directory.*
+*This README serves as your primary navigation guide for the Korinsic surveillance platform. For detailed technical documentation, see the `docs/` directory.*

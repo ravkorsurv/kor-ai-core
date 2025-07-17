@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "kor-ai-explainability"
+name = "korinsic-explainability"
 version = "1.0.0"
-description = "Comprehensive explainability and audit framework for Kor.ai surveillance models"
-authors = ["Kor.ai Team <dev@kor.ai>"]
+description = "Comprehensive explainability and audit framework for Korinsic surveillance models"
+authors = ["Korinsic Team <dev@korinsic.com>"]
 readme = "README.md"
 packages = [
     {include = "src"},

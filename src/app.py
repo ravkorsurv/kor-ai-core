@@ -341,7 +341,7 @@ if __name__ == '__main__':
     host = server_config.get('host', '0.0.0.0')
     debug = server_config.get('debug', False)
     
-    logger.info(f"Starting Kor.ai Surveillance Platform on {host}:{port} (debug={debug})")
+    logger.info(f"Starting Korinsic Surveillance Platform on {host}:{port} (debug={debug})")
     logger.info(f"Environment: {config.environment}")
     
     app.run(host=host, port=port, debug=debug)

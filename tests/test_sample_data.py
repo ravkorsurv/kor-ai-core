@@ -153,7 +153,7 @@ def generate_sample_spoofing_data():
 
 def test_sample_data():
     """Test the surveillance system with sample data"""
-    print("Testing Kor.ai Surveillance Platform with Sample Data")
+    print("Testing Korinsic Surveillance Platform with Sample Data")
     print("=" * 60)
     
     # Initialize components

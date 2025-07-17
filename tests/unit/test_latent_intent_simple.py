@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Simple Test Script for Hidden Causality and Latent Intent Feature
-Demonstrates the Kor.ai approach of modeling unobservable core abusive intent.
+Demonstrates the Korinsic approach of modeling unobservable core abusive intent.
 """
 
 import sys
@@ -141,9 +141,9 @@ def test_bayesian_engine_integration():
 
 def run_simple_test():
     """Run the simple test suite"""
-    print("KOR.AI - Hidden Causality and Latent Intent Feature Test")
+    print("KORINSIC - Hidden Causality and Latent Intent Feature Test")
     print("=" * 60)
-    print("Testing the Kor.ai approach of modeling unobservable core abusive intent")
+    print("Testing the Korinsic approach of modeling unobservable core abusive intent")
     print("through latent nodes with converging evidence paths.")
     print("=" * 60)
     

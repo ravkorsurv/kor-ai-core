@@ -1,5 +1,5 @@
 """
-Comprehensive test configuration and fixtures for Kor.ai Surveillance Platform.
+Comprehensive test configuration and fixtures for Korinsic Surveillance Platform.
 
 This module provides shared fixtures, utilities, and test configuration across
 all test types (unit, integration, e2e, performance).

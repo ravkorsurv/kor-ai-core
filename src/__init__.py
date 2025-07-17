@@ -1,1 +1,1 @@
-# Kor.ai Surveillance Platform Source Package
+# Korinsic Surveillance Platform Source Package

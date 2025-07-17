@@ -4,7 +4,7 @@ This document describes the comprehensive test infrastructure improvements imple
 
 ## Overview
 
-The enhanced test infrastructure provides a robust, scalable foundation for testing the Kor.ai Surveillance Platform with:
+The enhanced test infrastructure provides a robust, scalable foundation for testing the Korinsic Surveillance Platform with:
 
 - **Comprehensive fixtures** for all test scenarios
 - **Mock factories** for consistent test data generation
@@ -403,7 +403,7 @@ When migrating existing tests to the enhanced infrastructure:
 
 ## Conclusion
 
-The enhanced test infrastructure provides a comprehensive foundation for testing the Kor.ai Surveillance Platform. It offers:
+The enhanced test infrastructure provides a comprehensive foundation for testing the Korinsic Surveillance Platform. It offers:
 
 - **Consistency** through standardized fixtures and utilities
 - **Maintainability** through organized structure and clear patterns

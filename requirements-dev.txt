@@ -1,4 +1,4 @@
-# Development Dependencies for Kor.ai Surveillance Platform
+# Development Dependencies for Korinsic Surveillance Platform
 
 # Testing Framework
 pytest>=7.4.2
